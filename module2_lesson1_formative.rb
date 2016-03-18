@@ -15,4 +15,3 @@ else
   puts "I guess nothing matched... But why?"
 end
 
-rspec
