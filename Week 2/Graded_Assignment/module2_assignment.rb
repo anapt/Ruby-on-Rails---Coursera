@@ -42,9 +42,7 @@ class LineAnalyzer
   
   def calculate_word_frequency()
     @highest_wf_words=[] 
-    word_frequency = Hash.new(0)
-    @content.split.each do |word|
-      word_frequency[word.downcase] +=1
+      #code removed in accordance with the Coursera Honor Code
     end
 
     @highest_wf_count = word_frequency.values.max
@@ -111,17 +109,17 @@ class Solution < LineAnalyzer
 
   def calculate_line_with_highest_frequency()
     @highest_count_words_across_lines = []
-    count = Array.new
+    #code removed
 
     @analyzers.each do |analyzer|
-        count.concat([analyzer.highest_wf_count]) 
+        #code removed
     end
 
     @highest_count_across_lines = count.max
 
     @analyzers.each do |analyzer|
       if analyzer.highest_wf_count == @highest_count_across_lines
-        @highest_count_words_across_lines << analyzer
+        #code removed
       end
 
     end
