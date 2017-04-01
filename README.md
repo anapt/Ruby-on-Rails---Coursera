@@ -1,8 +1,4 @@
-"# Ruby-on-Rails---Coursera" 
-"# Ruby-on-Rails---Coursera" 
-"# Ruby-on-Rails---Coursera" 
-
-Ruby on Rails: An Introduction
+### Ruby on Rails: An Introduction
 by Johns Hopkins University
 
 Link on Coursera: https://www.coursera.org/learn/ruby-on-rails-intro/home/welcome
